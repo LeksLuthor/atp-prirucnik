@@ -25,4 +25,3 @@ Citatelj je kolega sa faksa, i profesor.
 Priručnik piše Luka Jurjevic u sklopu kolegija Akademsko i tehničko pisanje na Sveučilištu u Zadru, 2026./2027.
 
 U ovoj verziji nisam koristio AI.
-dodaj ovaj tekst na kraj readme.md datoteke
