@@ -4,7 +4,7 @@ Ovaj prirucnik sluzi radu vjezbi i zadaca sa predmeta ATP.
 
 ## Kome je namijenjen
 
-Citatelj je kolega sa faksa, i profesor.
+README je namijenjen kolegama sa faksa za issues, te profesoru za ocjenivanje.
 
 ## Moje razvojno okruženje
 
