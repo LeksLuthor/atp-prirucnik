@@ -1,16 +1,16 @@
 # Moj razvojni priručnik
 
-Jedna rečenica: što je ovaj priručnik i čemu služi.
+Ovaj prirucnik sluzi radu vjezbi i zadaca sa predmeta ATP.
 
 ## Kome je namijenjen
 
-Tko je čitatelj? Što već zna, a što ne zna?
+Citatelj je kolega sa faksa, i profesor.
 
 ## Moje razvojno okruženje
 
 | Što | Koje |
 |---|---|
-| Operacijski sustav | npr. Windows 11 |
+| Operacijski sustav | Windows 11 |
 | Uređivač koda | Visual Studio Code 1.141 |
 | Terminal | Git Bash |
 | Git | git version 2.56.0.windows.2 |
@@ -22,7 +22,7 @@ Tko je čitatelj? Što već zna, a što ne zna?
 
 ## Autor i korištenje AI-a
 
-Priručnik piše [korisničko ime] u sklopu kolegija Akademsko i tehničko pisanje na Sveučilištu u Zadru, 2026./2027.
+Priručnik piše Luka Jurjevic u sklopu kolegija Akademsko i tehničko pisanje na Sveučilištu u Zadru, 2026./2027.
 
-[Jeste li koristili AI i za što? Ako niste: „U ovoj verziji nisam koristio/la AI.”]
+U ovoj verziji nisam koristio AI.
 dodaj ovaj tekst na kraj readme.md datoteke
