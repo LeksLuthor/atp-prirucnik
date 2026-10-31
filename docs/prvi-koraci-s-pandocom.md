@@ -18,7 +18,7 @@ Citatelju je potrebno:
 
 [Posjetite link za skidanje Pandoca.](https://github.com/jgm/pandoc/releases/latest) Nakon sto ste preuzeli Pandoc, instalirajte ga na Vase racunalo. Nakon instalacije, ponovno pokrenite VSCode. 
 
-Unesite slijedecu naredbu kako biste provjerili status instalacije.
+
 
 ### macOS
 
@@ -26,11 +26,13 @@ Unesite slijedecu naredbu kako biste provjerili status instalacije.
 
 ## 2. Provjerite instalaciju
 
+Unesite slijedecu naredbu kako biste provjerili status instalacije.
+
 ```bash
 pandoc --version
 ```
 
-**Očekivani rezultat:** [prvi redak ispisa]
+**Očekivani rezultat:** Ukoliko je instalacija bila uspjesna, trebali biste vidjeti blok teksta koji pocinje sa "pandoc 3.13" u prvoj liniji.
 
 ## 3. Pretvorite Markdown u Word
 
