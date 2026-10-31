@@ -19,6 +19,7 @@ README je namijenjen kolegama sa faksa za issues, te profesoru za ocjenivanje.
 ## Sadržaj
 
 - [Prvi koraci u terminalu](docs/prvi-koraci-u-terminalu.md): tutorial, u izradi
+- [Prvi koraci s Pandocom](docs/prvi-koraci-s-pandocom.md): tutorial za Pandoc
 
 ## Autor i korištenje AI-a
 
