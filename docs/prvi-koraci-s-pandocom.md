@@ -18,8 +18,6 @@ Citatelju je potrebno:
 
 [Posjetite link za skidanje Pandoca.](https://github.com/jgm/pandoc/releases/latest) Nakon sto ste preuzeli Pandoc, instalirajte ga na Vase racunalo. Nakon instalacije, ponovno pokrenite VSCode. 
 
-
-
 ### macOS
 
 [Koraci za macOS. Ako nemate Mac, ostavite odjeljak za kolegu iz dijela D.]
@@ -36,18 +34,26 @@ pandoc --version
 
 ## 3. Pretvorite Markdown u Word
 
-[Naredba u bloku koda, očekivani rezultat, što čitatelj treba vidjeti u Wordu.]
+Da pretvorite odredjenu .md datoteku u .docx datoteku za rad u Wordu, unesite slijedecu komandu u shell:
+```
+pandoc odredjena-datoteka.md -o odredjena.datoteka.docx
+```
 
 ## 4. Pretvorite Markdown u web-stranicu
 
-[Naredba s -s, objašnjenje u jednoj rečenici čemu služi -s.]
+Da pretvorite odredjenu .md datoteku u ..html datoteku, unesite slijedecu komandu:
+```
+pandoc odredjena-datoteka.md -s -o odredjena.datoteka.html
+```
+Argument -s sluzi da bi kreirao .html kao standalone datoteka sa svim metapodatcima.
+
 
 ## Ako ne radi
 
 | Poruka | Što znači | Što učiniti |
 |---|---|---|
-| `command not found` | [ ] | [ ] |
+| `command not found` | Pandoc nije instaliran | Ponovno odraditi instalaciju Pandoca |
 
 ## Što ste napravili
 
-[Dvije ili tri rečenice: što čitatelj sada zna.]
+Sada ste upuceni u proces skidanja i instalacije programa Pandoc. Pandoc sluzi pretvorbi raznih tekstualnih podataka u druge formate od pocetnog. Proces pretvorbe je opisan u ovom tutorialu. Sada imate potrebne informacije za neke od pretvorbi.
