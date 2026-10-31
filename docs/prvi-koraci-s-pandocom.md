@@ -16,7 +16,9 @@ Citatelju je potrebno:
 
 ### Windows
 
-[Koraci za Windows. Ako ste radili na računalu u učionici, opišite put sa ZIP-om i PATH-om.]
+[Posjetite link za skidanje Pandoca.](https://github.com/jgm/pandoc/releases/latest) Nakon sto ste preuzeli Pandoc, instalirajte ga na Vase racunalo. Nakon instalacije, ponovno pokrenite VSCode. 
+
+Unesite slijedecu naredbu kako biste provjerili status instalacije.
 
 ### macOS
 
