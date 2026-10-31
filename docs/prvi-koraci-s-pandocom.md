@@ -1,12 +1,16 @@
 # Prvi koraci s Pandocom
 
-[Jedna rečenica: što će čitatelj naučiti. Jedna rečenica: koliko to traje.]
+Citatelj ce nauciti koristiti Pandoc za pretvorbu filetypea. Ucenje traje do 30 minuta.
 
-Provjereno s Pandocom [verzija] na [sustav i terminal].
+Provjereno s Pandocom 3.13 na Windows 11 Pro, i GNU bash, version 5.3.15.
 
 ## Prije početka
 
-- [Što čitatelj mora imati? Npr. VS Code, terminal, datoteku README.md.]
+Citatelju je potrebno:
+- VSCode
+- GitBash
+- korisnicki racun i repozitorij na GitHubu
+- README.md datoteka.
 
 ## 1. Instalirajte Pandoc
 
