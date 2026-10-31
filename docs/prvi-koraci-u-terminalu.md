@@ -9,22 +9,23 @@
 
 ## Prije početka
 
-- [Na kojem operacijskom sustavu i u kojem terminalu radite? Npr. Windows 11 i Git Bash.]
-- Visual Studio Code je pokrenut, a u njemu je otvorena mapa [koja?].
+- Rad se izvodi na sustavu Windows 11 Pro, i GNU bash, version 5.3.15.
+- Visual Studio Code je pokrenut, a u njemu je otvorena mapa /atp-prirucnik.
 
 ## 1. Otvorite terminal
 
 U izborniku **Terminal** odaberite **New Terminal**.
 
-**Očekivani rezultat:** [Kako izgleda redak u kojem treperi pokazivač? Prepišite ga sa svojeg zaslona.]
-
+**Očekivani rezultat:**   
+$ 
 ## 2. Provjerite gdje se nalazite
 
 ```bash
 pwd
 ```
 
-**Očekivani rezultat:** [Prepišite ispis sa svojeg računala.]
+**Očekivani rezultat:**   
+/c/Users/Korisnik/Documents/zagrijavanje/atp-prirucnik
 
 ## 3. Napravite mapu i uđite u nju
 
@@ -34,16 +35,18 @@ cd proba-terminala
 pwd
 ```
 
-**Očekivani rezultat:** [Čime sada završava putanja?]
+**Očekivani rezultat:**   
+/c/Users/Korisnik/Documents/zagrijavanje/atp-prirucnik/proba-terminala
 
 ## 4. Napravite datoteku i upišite u nju tekst
 
 ```bash
-echo "# Moje bilješke" > biljeske.md
+echo "# Moje biljeske" > biljeske.md
 cat biljeske.md
 ```
 
-**Očekivani rezultat:** [Prepišite ispis.]
+**Očekivani rezultat:**   
+\# Moje biljeske
 
 ## 5. Dodajte još jedan redak
 
@@ -52,9 +55,11 @@ echo "- Naredba pwd ispisuje gdje se nalazim." >> biljeske.md
 cat biljeske.md
 ```
 
-**Očekivani rezultat:** [Prepišite ispis.]
+**Očekivani rezultat:**   
+\# Moje biljeske  
+\- Naredba pwd ispisuje gdje se nalazim.
 
-[Jednom ili dvjema rečenicama objasnite čitatelju razliku između `>` i `>>`.]
+Koristenje jednog znaka '>' brise sve postojece unose i ostavlja samo unos u komandi, a koristenje dva znaka, odnosno '>>', dodaje unos u novi redak na kraju teksta.
 
 ## 6. Kopirajte, preimenujte i izbrišite datoteku
 
@@ -65,17 +70,18 @@ rm stara.md
 ls
 ```
 
-**Očekivani rezultat:** [Što ispiše `ls`?]
+**Očekivani rezultat:**  
+biljeske.md
 
-[Upozorite čitatelja na ono što je važno znati prije naredbe `rm`.]
+Prije koristenja naredbe 'rm' korisnik mora biti potpuno siguran u namjeru, jer tako obrisana datoteka ne moze biti povracena.
 
 ## Ako ne radi
 
 | Poruka | Što znači | Što učiniti |
 |---|---|---|
-| `No such file or directory` | [Objasnite.] | [Objasnite.] |
-| [Druga poruka koju ste vidjeli na vježbama] | [Objasnite.] | [Objasnite.] |
+| `No such file or directory` | Objekt komande ne postoji u radnoj mapi | Kreirati objekt sa komandama mkdir ili touch |
+| File exists | Istoimena datoteka ili mapa postoji | Promijeniti zeljeno ime nove mape ili datoteke, ili preimenovati postojecu |
 
 ## Što dalje
 
-[Gdje čitatelj može naučiti više? Npr. priručnik Srca *Uvod u Linux*, poglavlja 2 i 3.]
+Za vise komandi i detaljnije upute, referirati se na priručnik Srca *Uvod u Linux*, poglavlja 2 i 3.
